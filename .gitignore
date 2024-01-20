@@ -1,4 +1,4 @@
-notebooks/.ipynb_checkpoints/
-notebooks/..virtual_documents/
-data/
+notebooks/.ipynb_checkpoints/*
+notebooks/.virtual_documents/*
+data/*
 
