@@ -1,3 +1,8 @@
 notebooks/.ipynb_checkpoints/*
 notebooks/.virtual_documents/*
 data/*
+07-homework/
+!07-homework/main.py
+!07-homework/model.py
+!07-homework/test_model.py
+!07-homework/proof_of_work.py
