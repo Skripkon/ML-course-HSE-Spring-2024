@@ -6,3 +6,4 @@ data/*
 !07-homework/model.py
 !07-homework/test_model.py
 !07-homework/proof_of_work.py
+setup.cfg
