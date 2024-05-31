@@ -1,0 +1,8 @@
+def func(numbers):
+    result_dict = {"mean": ..., "median": ..., "mode": ...}
+
+    # Calculate the mean value
+    result_dict["mean"] = sum(numbers) / len(numbers)
+
+    # Calculate the median value
+    sorted_numbers = sorted(numbers)

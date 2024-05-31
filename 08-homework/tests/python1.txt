@@ -1,0 +1,17 @@
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        prog='Classifier',
+        description='You can run model',
+        epilog='no help')
+
+    parser.add_argument('-f', '--file', required=True)
+    args = parser.parse_args()
+
+    input_file = args.file
+    f = open(input_file, "r")
+    imput_text = f.read()
+    with open("model.pkl", 'rb') as file:
+        model, bow = pickle.load(file)
+
+    x_test_python = bow.transform([imput_text])
+    print(f"Model predict {mapping[model.predict(x_test_python)]}")
